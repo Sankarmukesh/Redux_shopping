@@ -1,28 +1,5 @@
 {
-  "cart": [
-    {
-      "availableSizes": [
-        "X",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "14/15 s/nº",
-      "id": 1,
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 8552515751438644,
-      "style": "White T-shirt",
-      "title": "Cropped Stay Groovy off white",
-      "TotalPrice": 21.8,
-      "selectedSize": "L",
-      "totalitems": 2,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    }
-  ],
+  "cart": [],
   "orders": [
     {
       "availableSizes": [
@@ -62,6 +39,48 @@
       "TotalPrice": 10.9,
       "selectedSize": "XXL",
       "totalitems": 3,
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    },
+    {
+      "availableSizes": [
+        "L",
+        "XL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "",
+      "id": 10,
+      "installments": 9,
+      "isFreeShipping": true,
+      "price": 49,
+      "sku": 27250082398145996,
+      "style": "",
+      "title": "Marine Blue T-shirt",
+      "TotalPrice": 49,
+      "selectedSize": "L",
+      "totalitems": 37,
+      "email": "ysankarmukesh@gmail.com"
+    },
+    {
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº",
+      "id": 1,
+      "installments": 9,
+      "isFreeShipping": true,
+      "price": 10.9,
+      "sku": 8552515751438644,
+      "style": "White T-shirt",
+      "title": "Cropped Stay Groovy off white",
+      "TotalPrice": 991.9,
+      "selectedSize": "XXL",
+      "totalitems": 91,
       "email": "sankar.yalamandla@tigeranalytics.com"
     }
   ]

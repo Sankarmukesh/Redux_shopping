@@ -440,7 +440,7 @@ const Carts = () => {
                             }}
                             onClick={e=>{
                                if(window.confirm("Do you want to buy this item?")){
-                                dispatch(AddOrder({...row,TotalPrice:row.price,selectedSize:row.selectedSize,totalitems:row.totalitems,email:jwtDecode(localStorage.getItem('user')).email}))
+                                dispatch(AddOrder({...row,TotalPrice:row.TotalPrice,selectedSize:row.selectedSize,totalitems:row.totalitems,email:jwtDecode(localStorage.getItem('user')).email}))
                                 dispatch(DeleteCart(row.id))
                                 navigate('/orders')
                                }
