@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  justify-content: space-between !important;
+}
+.header .wrapper {
+  width: 100% !important;
+  padding: 15px !important;
+  display: flex !important;
+  margin-left: 12px !important;
+  align-items: center;
+  justify-content: space-between !important;
+  height: 60px;
+}
+.header .wrapper .time {
+  color: white;
+  font-family: 14px, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  margin: 16px 16px 16px 0px;
+}
+.header .wrapper .add i:hover {
+  color: #a6a8aa;
+}
+.header .wrapper .add .sub {
+  width: 150px;
+  z-index: 999 !important;
+  border: 1px solid rgba(165, 159, 159, 0.233);
+  border-radius: 5px;
+  display: none;
+  height: 129px;
+}
+.header .wrapper .add .sub .pC span {
+  padding: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  display: block;
+  color: black;
+}
+.header .wrapper .add .sub .pC span:hover {
+  background: #d1d2d3;
+}
+.header .wrapper .add .sub.dis {
+  display: block !important;
+}
+.header .wrapper .items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transform: translateY(5px);
+}
+.header .wrapper .items .itemC {
+  font-family: 14px, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+}
+.header .wrapper .items .itemC:hover > .subitem {
+  display: block !important;
+}
+.header .wrapper .items .itemC .mainM {
+  font-family: 14px, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+  text-transform: capitalize;
+  margin: 16px 16px 16px 0px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  padding: 16px 0px;
+}
+.header .wrapper .items .itemC .mainM:hover {
+  color: #a6a8aa;
+}
+.header .wrapper .items .itemC .mainM p i {
+  font-size: 10px;
+}
+.header .wrapper .items .itemC .subitem {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 69px;
+  background: rgb(36, 41, 47);
+  padding: 10px;
+  z-index: 999 !important;
+  display: none;
+}
+.header .wrapper .items .itemC .subitem span {
+  font-family: 14px, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-right: 1px solid white;
+}
+.header .wrapper .items .itemC .subitem span:hover {
+  color: #a6a8aa;
+}
+.header .wrapper .items .itemC .subitem span:last-child {
+  border-right: none !important;
+}
+.header .wrapper .items .item {
+  font-family: 14px, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  position: relative;
+  text-transform: capitalize;
+  margin: 16px 16px 16px 0px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  padding: 16px 0px;
+}
+.header .wrapper .items .item:hover {
+  color: #a6a8aa;
+}/*# sourceMappingURL=navbar.css.map */
