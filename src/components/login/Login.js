@@ -13,7 +13,7 @@ const Login = () => {
   function handleCallback(response) {
     console.log("Encoded", jwt_decode(response.credential));
     dispatch(LoginUser(response.credential));
-    navigate("/todos");
+    navigate("/products");
   }
 
   useEffect(() => {

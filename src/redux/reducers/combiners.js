@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import { TodoReducers } from "./TodoReducers";
+import {ShoppingReducers} from './ShoppingReducers'
 import { loginReducer } from "./LoginReducer";
 
 
 export const totalReducers = combineReducers({
-  TodoReducers,
+  ShoppingReducers,
   loginReducer
 })

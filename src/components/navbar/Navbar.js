@@ -1,13 +1,25 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
+import { AllCart } from "../../redux/actions/CartActions";
+
+import {AllOrders} from "../../redux/actions/CartActions"
 import { LogoutUser } from "../../redux/actions/LoginActions";
 
 import "./navbar.scss";
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const cart =  useSelector(state=>state.ShoppingReducers.cart)
+  const orders = useSelector(state=>state.ShoppingReducers.orders)
   const dispatch = useDispatch();
+  useEffect(()=>{
+dispatch(AllCart())
+  },[dispatch])
+
+  useEffect(()=>{
+dispatch(AllOrders())
+  },[dispatch])
   const image = useSelector((state) => state.loginReducer.userData.picture);
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
@@ -137,7 +149,7 @@ const Navbar = () => {
         >
           <div
             className="bottom"
-            style={{ display: "flex", gap: "10px", alignItems: "center" }}
+            style={{ display: "flex", gap: "30px", alignItems: "center" }}
           >
             {image && (
               <div className="item profile">
@@ -151,6 +163,31 @@ const Navbar = () => {
                 />
               </div>
             )}
+          
+
+            {image && <div
+              className="item"
+              style={{ fontSize: "20px", color: "white", cursor: "pointer" }}
+              onClick={() => {
+                // dispatch(LogoutUser());
+                navigate("/cart");
+              }}
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span style={{background:"blue",padding:"3px 7px",borderRadius:"50%",fontSize:"12px",position:"absolute",top:"4px"}}>{cart.length}</span>
+            </div> }
+            {image && <div
+              className="item"
+              style={{ fontSize: "20px", color: "white", cursor: "pointer" }}
+              onClick={() => {
+                // dispatch(LogoutUser());
+                navigate("/orders");
+              }}
+            >
+              Orders
+              <span style={{background:"blue",padding:"3px 7px",borderRadius:"50%",fontSize:"12px",position:"absolute",top:"4px"}}>{orders.length}</span>
+
+            </div> }
             {image ? <div
               className="item"
               style={{ fontSize: "20px", color: "orange", cursor: "pointer" }}
@@ -160,7 +197,7 @@ const Navbar = () => {
               }}
             >
               <i class="fa-solid fa-power-off"></i>
-            </div> : <span style={{color:"white"}}>Please Login to add Tasks</span>}
+            </div> : <span style={{color:"white"}}>Please Login to Explore</span>}
           </div>
         </div>
       </div>
