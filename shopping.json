@@ -21,6 +21,28 @@
       "selectedSize": "XL",
       "totalitems": 137,
       "email": "sankar.yalamandla@tigeranalytics.com"
+    },
+    {
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº",
+      "id": "1672457464572",
+      "installments": 9,
+      "isFreeShipping": true,
+      "price": 10.9,
+      "sku": 8552515751438644,
+      "style": "White T-shirt",
+      "title": "Cropped Stay Groovy off white",
+      "TotalPrice": 196.20000000000002,
+      "selectedSize": "XL",
+      "totalitems": 18,
+      "email": "sankar.yalamandla@tigeranalytics.com"
     }
   ],
   "orders": [
