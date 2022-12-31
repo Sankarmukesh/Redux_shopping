@@ -1,6 +1,73 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº",
+      "id": "1672457326511",
+      "installments": 9,
+      "isFreeShipping": true,
+      "price": 10.9,
+      "sku": 8552515751438644,
+      "style": "White T-shirt",
+      "title": "Cropped Stay Groovy off white",
+      "TotalPrice": 1493.3,
+      "selectedSize": "XL",
+      "totalitems": 137,
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    }
+  ],
   "orders": [
+    {
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº",
+      "id": "1672457126449",
+      "installments": 9,
+      "isFreeShipping": true,
+      "price": 10.9,
+      "sku": 8552515751438644,
+      "style": "White T-shirt",
+      "title": "Cropped Stay Groovy off white",
+      "TotalPrice": 250.70000000000002,
+      "selectedSize": "XL",
+      "totalitems": 23,
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    },
+    {
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº",
+      "id": "1672457162297",
+      "installments": 9,
+      "isFreeShipping": true,
+      "price": 10.9,
+      "sku": 8552515751438644,
+      "style": "White T-shirt",
+      "title": "Cropped Stay Groovy off white",
+      "TotalPrice": 294.3,
+      "selectedSize": "XL",
+      "totalitems": 27,
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    },
     {
       "availableSizes": [
         "XL"
@@ -8,79 +75,73 @@
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "14/15 s/nº - Jogador",
-      "id": 4,
+      "id": "1672457210762",
       "installments": 12,
       "isFreeShipping": false,
       "price": 25.9,
       "sku": 9197907543445676,
       "style": "Tony Hawk",
       "title": "Skater Black Sweatshirt",
-      "selectedSize": "",
-      "totalitems": 1,
+      "TotalPrice": 51.8,
+      "selectedSize": "XL",
+      "totalitems": 2,
       "email": "sankar.yalamandla@tigeranalytics.com"
     },
     {
       "availableSizes": [
-        "X",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "14/15 s/nº",
-      "id": 5,
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 8552515751438644,
-      "style": "White T-shirt",
-      "title": "Cropped Stay Groovy off white",
-      "TotalPrice": 10.9,
-      "selectedSize": "XXL",
-      "totalitems": 3,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    },
-    {
-      "availableSizes": [
-        "L",
         "XL"
       ],
       "currencyFormat": "$",
       "currencyId": "USD",
-      "description": "",
-      "id": 10,
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 49,
-      "sku": 27250082398145996,
-      "style": "",
-      "title": "Marine Blue T-shirt",
-      "TotalPrice": 49,
-      "selectedSize": "L",
-      "totalitems": 37,
-      "email": "ysankarmukesh@gmail.com"
+      "description": "14/15 s/nº - Jogador",
+      "id": "1672457228462",
+      "installments": 12,
+      "isFreeShipping": false,
+      "price": 25.9,
+      "sku": 9197907543445676,
+      "style": "Tony Hawk",
+      "title": "Skater Black Sweatshirt",
+      "TotalPrice": 51.8,
+      "selectedSize": "XL",
+      "totalitems": 2,
+      "email": "sankar.yalamandla@tigeranalytics.com"
     },
     {
       "availableSizes": [
-        "X",
-        "L",
-        "XL",
-        "XXL"
+        "XL"
       ],
       "currencyFormat": "$",
       "currencyId": "USD",
-      "description": "14/15 s/nº",
-      "id": 1,
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 8552515751438644,
-      "style": "White T-shirt",
-      "title": "Cropped Stay Groovy off white",
-      "TotalPrice": 991.9,
-      "selectedSize": "XXL",
-      "totalitems": 91,
+      "description": "14/15 s/nº - Jogador",
+      "id": "1672457252658",
+      "installments": 12,
+      "isFreeShipping": false,
+      "price": 25.9,
+      "sku": 9197907543445676,
+      "style": "Tony Hawk",
+      "title": "Skater Black Sweatshirt",
+      "TotalPrice": 51.8,
+      "selectedSize": "XL",
+      "totalitems": 2,
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    },
+    {
+      "availableSizes": [
+        "XL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº - Jogador",
+      "id": "1672457271242",
+      "installments": 12,
+      "isFreeShipping": false,
+      "price": 25.9,
+      "sku": 9197907543445676,
+      "style": "Tony Hawk",
+      "title": "Skater Black Sweatshirt",
+      "TotalPrice": 51.8,
+      "selectedSize": "XL",
+      "totalitems": 2,
       "email": "sankar.yalamandla@tigeranalytics.com"
     }
   ]

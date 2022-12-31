@@ -115,8 +115,8 @@ const SingleProduct = () => {
             <input
               type="number"
               
-              style={{ padding: "5px" }}
-              placeholder="Enter No.of items"
+              style={{ padding: "5px",width:"200px" }}
+              placeholder="Enter No.of items default is 1"
               onChange={(e) => {
                 if (e.target.value < 1) {
                   window.alert("Enter value greater than 1");
@@ -143,7 +143,7 @@ const SingleProduct = () => {
                 }}
 
                 onClick={e=>{
-                    dispatch(AddCart({...singleData,TotalPrice:price,selectedSize:size,totalitems:+totalItems,email:jwtDecode(localStorage.getItem('user')).email}))
+                    dispatch(AddCart({...singleData,TotalPrice:price,selectedSize:size,totalitems:+totalItems,email:jwtDecode(localStorage.getItem('user')).email,id:Date.now().toString()}))
                     navigate('/cart')
                 }}
               >

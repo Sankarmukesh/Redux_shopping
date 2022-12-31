@@ -25,7 +25,7 @@ import { visuallyHidden } from "@mui/utils";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { AllProducts } from "../../redux/actions/CartActions";
+import { AllProducts, DeleteOrders } from "../../redux/actions/CartActions";
 import { useNavigate } from "react-router-dom";
 
 function createData(name, calories, fat, carbs, protein) {
@@ -117,12 +117,12 @@ const headCells = [
       disablePadding: false,
       label: "totalitems",
     },
-    // {
-    //   id: "actions",
-    //   numeric: true,
-    //   disablePadding: false,
-    //   label: "Actions",
-    // },
+    {
+      id: "actions",
+      numeric: true,
+      disablePadding: false,
+      label: "Actions",
+    },
   ];
 
 function EnhancedTableHead(props) {
@@ -375,7 +375,19 @@ export default function Orders() {
                         <TableCell align="center">{row.TotalPrice}</TableCell>
                         <TableCell align="center">{row.selectedSize}</TableCell>
                         <TableCell align="center">{row.totalitems}</TableCell>
-                        
+                        <TableCell align="center"> <i
+                            class="fa-solid fa-trash"
+                            style={{
+                              marginLeft: "20px",
+                              cursor: "pointer",
+                              color: "red",
+                            }}
+                            onClick={(e) => {
+                              if(window.confirm("Do you really want to delete this item?")){
+                                dispatch(DeleteOrders(row.id));
+                              }
+                            }}
+                          ></i></TableCell>
                       </TableRow>
                     );
                 })}

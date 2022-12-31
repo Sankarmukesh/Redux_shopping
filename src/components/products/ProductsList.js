@@ -123,6 +123,12 @@ const headCells = [
     disablePadding: false,
     label: "Installments ",
   },
+  {
+    id: "actions",
+    numeric: false,
+    disablePadding: false,
+    label: "Actions",
+  },
 ];
 
 function EnhancedTableHead(props) {
@@ -356,6 +362,7 @@ export default function ProductsList() {
                   return (
                     <TableRow
                       hover
+                      style={{cursor:"pointer"}}
                       onClick={(event) => handleClick(row.id)}
                       role="checkbox"
                       aria-checked={isItemSelected}
@@ -376,7 +383,7 @@ export default function ProductsList() {
                       <TableCell align="center">{row.description}</TableCell>
                       <TableCell align="center">{row.style}</TableCell>
                       <TableCell align="center">{row.installments}</TableCell>
-                      <TableCell align="center">{row.protein}</TableCell>
+                      <TableCell align="center" onClick={(event) => handleClick(row.id)}><i class="fa-solid fa-eye"></i></TableCell>
                     </TableRow>
                   );
                 })}

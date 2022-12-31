@@ -72,3 +72,11 @@ export const AddOrder = (data) => async (dispatch) => {
     dispatch(AllOrders());
   });
 };
+
+
+export const DeleteOrders = (id) => async (dispatch) => {
+  await axios.delete(`${Backend_url}/orders/${id}`).then((res) => {
+    // dispatch({type:"CARTDELETE",payload:id})
+    dispatch(AllOrders());
+  });
+};
