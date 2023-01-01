@@ -355,9 +355,11 @@ const Carts = () => {
               email: jwtDecode(localStorage.getItem("user")).email,
             })
           );
+          document.getElementById('noI').value=""
           setShowModal(false);
         }}
         onCancel={() => {
+          document.getElementById('noI').value=""
           setShowModal(false);
         }}
         okButtonProps ={{disabled: size==="" ? true:false }}
@@ -400,6 +402,7 @@ const Carts = () => {
             </span>{" "}
             <input
               type="number"
+              id="noI"
               style={{ padding: "5px" ,width:"200px"}}
               placeholder="Enter No.of items default is 1"
               onChange={(e) => {

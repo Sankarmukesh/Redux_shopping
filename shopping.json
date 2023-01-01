@@ -2,6 +2,25 @@
   "cart": [
     {
       "availableSizes": [
+        "XL"
+      ],
+      "currencyFormat": "$",
+      "currencyId": "USD",
+      "description": "14/15 s/nº - Jogador",
+      "id": "1672471456204",
+      "installments": 12,
+      "isFreeShipping": false,
+      "price": 25.9,
+      "sku": 9197907543445676,
+      "style": "Tony Hawk",
+      "title": "Skater Black Sweatshirt",
+      "TotalPrice": 932.4,
+      "selectedSize": "XL",
+      "totalitems": 36,
+      "email": "sankar.yalamandla@tigeranalytics.com"
+    },
+    {
+      "availableSizes": [
         "X",
         "ML",
         "L"
@@ -9,164 +28,37 @@
       "currencyFormat": "$",
       "currencyId": "USD",
       "description": "",
-      "id": "1672458090159",
+      "id": "1672471549419",
       "installments": 3,
       "isFreeShipping": true,
       "price": 13.25,
       "sku": 39876704341265610,
       "style": "Wine",
       "title": "Basic Cactus White T-shirt",
-      "TotalPrice": 331.25,
+      "TotalPrice": 371,
       "selectedSize": "ML",
-      "totalitems": 25,
+      "totalitems": 28,
       "email": "sankar.yalamandla@tigeranalytics.com"
     },
     {
       "availableSizes": [
-        "X",
-        "L",
-        "XL",
-        "XXL"
+        "XL"
       ],
       "currencyFormat": "$",
       "currencyId": "USD",
-      "description": "14/15 s/nº",
-      "id": "1672458182086",
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 8552515751438644,
-      "style": "White T-shirt",
-      "title": "Cropped Stay Groovy off white",
-      "TotalPrice": 163.5,
-      "selectedSize": "XXL",
-      "totalitems": 15,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    },
-    {
-      "availableSizes": [
-        "M",
-        "ML"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "",
-      "id": "1672458188673",
-      "installments": 5,
-      "isFreeShipping": true,
-      "price": 29.45,
-      "sku": 51498472915966370,
-      "style": "Tule",
-      "title": "Black Tule Oversized",
-      "TotalPrice": 29.45,
-      "selectedSize": "M",
-      "totalitems": 1,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    },
-    {
-      "availableSizes": [
-        "S",
-        "XS"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "4 MSL",
-      "id": "1672458194756",
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 12064273040195392,
-      "style": "Really Cool T-shirt",
-      "title": "Black Batman T-shirt",
-      "TotalPrice": 10.9,
-      "selectedSize": "XS",
-      "totalitems": 1,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    },
-    {
-      "availableSizes": [
-        "S",
-        "XS"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "4 MSL",
-      "id": "1672458201905",
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 12064273040195392,
-      "style": "Really Cool T-shirt",
-      "title": "Black Batman T-shirt",
-      "TotalPrice": 10.9,
-      "selectedSize": "S",
-      "totalitems": 1,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    },
-    {
-      "availableSizes": [
-        "M",
-        "ML"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "",
-      "id": "1672458628418",
-      "installments": 5,
-      "isFreeShipping": true,
-      "price": 29.45,
-      "sku": 51498472915966370,
-      "style": "Tule",
-      "title": "Black Tule Oversized",
-      "TotalPrice": 29.45,
-      "selectedSize": "ML",
-      "totalitems": 1,
+      "description": "14/15 s/nº - Jogador",
+      "id": "1672552541734",
+      "installments": 12,
+      "isFreeShipping": false,
+      "price": 25.9,
+      "sku": 9197907543445676,
+      "style": "Tony Hawk",
+      "title": "Skater Black Sweatshirt",
+      "TotalPrice": 543.9,
+      "selectedSize": "XL",
+      "totalitems": 21,
       "email": "sankar.yalamandla@tigeranalytics.com"
     }
   ],
-  "orders": [
-    {
-      "availableSizes": [
-        "X",
-        "ML",
-        "L"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "",
-      "id": "1672458120305",
-      "installments": 3,
-      "isFreeShipping": true,
-      "price": 13.25,
-      "sku": 39876704341265610,
-      "style": "Wine",
-      "title": "Basic Cactus White T-shirt",
-      "TotalPrice": 397.5,
-      "selectedSize": "ML",
-      "totalitems": 30,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    },
-    {
-      "availableSizes": [
-        "X",
-        "L",
-        "XL",
-        "XXL"
-      ],
-      "currencyFormat": "$",
-      "currencyId": "USD",
-      "description": "14/15 s/nº",
-      "id": "1672458674743",
-      "installments": 9,
-      "isFreeShipping": true,
-      "price": 10.9,
-      "sku": 8552515751438644,
-      "style": "White T-shirt",
-      "title": "Cropped Stay Groovy off white",
-      "TotalPrice": 207.1,
-      "selectedSize": "XXL",
-      "totalitems": 19,
-      "email": "sankar.yalamandla@tigeranalytics.com"
-    }
-  ]
+  "orders": []
 }
